@@ -16,6 +16,7 @@ import org.usfirst.frc.team157.robot.commands.DebugPrint;
 import org.usfirst.frc.team157.robot.commands.ExtendPiston;
 import org.usfirst.frc.team157.robot.commands.GetLimitSwitchPos;
 import org.usfirst.frc.team157.robot.commands.GetPotVoltage;
+import org.usfirst.frc.team157.robot.commands.GyroOutput;
 import org.usfirst.frc.team157.robot.commands.MoveMotorTime;
 import org.usfirst.frc.team157.robot.commands.RetractPiston;
 import edu.wpi.first.wpilibj.Joystick;
@@ -100,7 +101,7 @@ public class OI
 		// driverLeftButton5.whenPressed(new DebugPrint("driverLeftButton5 Pressed"));
 		driverLeftButton6.whenPressed(new GetLimitSwitchPos());
 		// driverLeftButton6.whenPressed(new DebugPrint("driverLeftButton6 Pressed"));
-		driverLeftButton7.whenPressed(new DebugPrint("driverLeftButton7 Pressed"));
+		driverLeftButton7.whenPressed(new GyroOutput());
 		driverLeftButton8.whenPressed(new DebugPrint("driverLeftButton8 Pressed"));
 		driverLeftButton9.whenPressed(new DebugPrint("driverLeftButton9 Pressed"));
 		driverLeftButton10.whenPressed(new DebugPrint("driverLeftButton10 Pressed"));
