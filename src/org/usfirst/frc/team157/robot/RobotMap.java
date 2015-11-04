@@ -21,6 +21,8 @@ public class RobotMap
 {
     // TODO
 
+	// This is a test comment in the robot map, it can be removed
+	
     // Motor Subsystem
     public static boolean useCAN;
     public static int motorSubsystemCANJaguar1ID;
